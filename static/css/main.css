@@ -1,0 +1,82 @@
+body {
+  background-image: url(/static/images/bground.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100%;
+}
+.hello {
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/opacity/see-through */
+  color: rgb(255, 255, 255);
+  border: 0.1px solid #0ed467;
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 40%;
+  padding: 20px;
+  text-align: center;
+}
+#helloworld {
+  color: rgba(174, 238, 200, 0.4);
+}
+#job {
+  color: rgba(231, 245, 231, 0.4);
+}
+
+.infos {
+  color: rgb(182, 202, 182);
+  padding: 10px;
+  font-size: 20px;
+  color: #5ba15b;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+#exp:hover, #project:hover, #about:hover{
+    font-size: 27px;
+    color: #36be36;
+    text-decoration: none;
+    font-weight: bold;
+}
+.profilepic{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    border: 2px solid green;
+    margin-top: 10px;
+}
+.logos{
+  display: inline-block;
+  float: left;
+  margin: 15px;
+}
+.p-logos{
+  display: inline;
+  float: left;
+  margin: 15px;
+}
+.display-about{
+  background-color: rgba(0, 0, 0, 0.8)!important; /* Black w/opacity/see-through */
+  color: rgb(255, 255, 255);
+  position: absolute;
+  border: 1px solid rgb(53, 109, 53)!important;
+  margin-top: -280px;
+  left: 2%;
+  z-index: 3;
+  width: 27%;
+  padding: 5px;
+  text-align: left;
+}
+.about-text{
+  color: rgb(58, 138, 58);
+  font-size: 13px;
+  font-weight: normal;
+}
+#about-header{
+  color: #36be36;
+  font-size: 30px;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
